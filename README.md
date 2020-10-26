@@ -41,6 +41,8 @@ OR (if Git is installed on your machine)
 - Create an account with [Netlify](https://www.netlify.com/)
 - Finally, drag and drop the `build` folder for upload and the application would have been hosted
 
+## Demonstration (How the app works)
+Click [here](https://www.youtube.com/watch?v=mximojRMnLk&feature=youtu.be) for demonstration
 
 ## Available Scripts
 
