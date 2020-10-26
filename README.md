@@ -1,6 +1,46 @@
 # Food Recipe App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+In this tutorial, we will be creating a food recipe application that can help a cook figure out any recipe of any desired food material.
+The app will be using an external API to populate all the information on different food recipes and their respective amount of calories. The key things we will explore is how to:
+- Design the user interaction
+- Access the API with [edamam](https://www.edamam.com/)
+- Integrate the application with the external API
+
+## Prerequisites
+- Install [react](https://reactjs.org/)
+- Install the code editor preferably [Visual Studio Code](https://code.visualstudio.com/)
+- Have an account with [edamam](https://www.edamam.com/)
+
+## Design the user interaction
+In this app we've designed only two widgets namely;
+- a `Search` button
+- a textfield
+
+The use of a button is to triger the listener in the event that the user clicks on it and the use of a textfield is where the user types any food material that they would want  to find out their respective recipes.
+
+## API Access
+Go to https://www.youtube.com/watch?v=JcOiP8y9gpI&feature=youtu.be and follow my youtube tutorial on API access
+
+## API Integration with the app
+- Copy the `APPlication ID` 
+- Copy the `Application Key`
+- Copy the `GET` request link from the `Documentation` tab
+
+Finally paste each one of the above in your code accordingly
+
+## Deployment
+- Open `command prompt` and navigate to your project directory or folder and type `npm run build` and press `Enter` key
+
+OR (if Git is installed on your machine)
+
+- Navigate to your project directory 
+- Right click and select Git Bash here 
+- Type `npm run build` and press `Enter` key
+- The `build` folder will appear in your project directory
+- Create an account with [Netlify](https://www.netlify.com/)
+- Finally, drag and drop the `build` folder for upload and the application would have been hosted
+
 
 ## Available Scripts
 
